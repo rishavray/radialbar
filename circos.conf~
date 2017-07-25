@@ -1,0 +1,19 @@
+
+<<include etc/colors_fonts_patterns.conf>>
+
+<<include ideogram.conf>>
+<<include ticks.conf>>
+
+<image>
+<<include etc/image.conf>>
+</image>
+
+chromosomes_units           = 1
+chromosomes_display_default = yes
+
+karyotype = axis.txt
+
+
+<<include etc/housekeeping.conf>>
+
+

@@ -1,0 +1,25 @@
+
+show_ticks          = yes
+show_tick_labels    = yes
+
+<ticks>
+radius           = dims(ideogram,radius_outer)
+multiplier       = 1
+color            = black
+thickness        = 2p
+
+<tick>
+spacing        = 0.5u
+size           = 15p
+show_label     = yes
+label_size     = 20p
+label_offset   = 10p
+format         = %d
+</tick>
+
+<tick>
+spacing        = 1u
+size           = 0p
+</tick>
+
+</ticks>
